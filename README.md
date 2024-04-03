@@ -10,7 +10,7 @@ charity and fundraising app
 - social sharing
 
 
-###Team members:
+### Team members:
 1. Abidiyyah Barqah VA5154
 2. Wed Aljehani VA5019
 3. Sulafah Kaki VB5005
