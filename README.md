@@ -9,3 +9,7 @@ charity and fundraising app
 - volunteering oppurtunities
 - social sharing
 
+Team members:
+1. Abidiyyah Baraqaa VA
+2. Wed Aljehani VA5019
+3. Sulafah Kaki VB5005
