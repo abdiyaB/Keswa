@@ -8,9 +8,10 @@ charity and fundraising app
 - social sharing
 
 ### How to run the applicationm:
+1. install the zip fine 
 
 
 ### Team members:
-1. Abidiyyah Barqah VA5154
-2. Wed Aljehani VA5019
-3. Sulafah Kaki VB5005
+- Abidiyyah Barqah VA5154
+-  Wed Aljehani VA5019
+-  Sulafah Kaki VB5005
