@@ -23,5 +23,3 @@ charity and fundraising app
 - [ ] **Phase 4:** Bakckend
 - [ ] **Phase 5:** Backend Test
 - [ ] **Phase 6:** Deploy
-
-### My Great Heading {#custom-id}
