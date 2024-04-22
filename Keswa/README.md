@@ -17,9 +17,9 @@ charity and fundraising app
 -  Sulafah Kaki VB5005
 
 ### Task
-- [x] Phase 1: Github
-- [x] Phase 2: HTML CSS Bootstrap 
-- [ ] Phase 3: JQuery AJAX
-- [ ] Phase 4: Bakckend
-- [ ] Phase 5: Backend Test
-- [ ] Phase 6: Deploy
+- [x] **Phase 1:** Github
+- [x] **Phase 2:** HTML CSS Bootstrap 
+- [ ] **Phase 3:** JQuery AJAX
+- [ ] **Phase 4:** Bakckend
+- [ ] **Phase 5:** Backend Test
+- [ ] **Phase 6:** Deploy
