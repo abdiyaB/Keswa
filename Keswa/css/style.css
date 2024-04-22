@@ -1,8 +1,6 @@
 /*------------------
   CUSTOM PROPERTIES          
 --------------------*/
-
-
 body {
   background-color: #ffffff;
   font-family: 'Metropolis', sans-serif; 
@@ -100,55 +98,6 @@ strong {
   background-color: #f0f8ff;
 }
 
-/*---------------------------------------
-  CUSTOM TEXT BOX               
------------------------------------------*/
-.custom-text-box {
-  background: #ffffff;
-  border-radius: 20px;
-  margin-bottom: 24px;
-  padding: 40px;
-}
-
-.custom-text-box-image {
-  border-radius: 20px;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-
-/*---------------------------------------
-  CUSTOM BUTTON               
------------------------------------------*/
-.custom-btn {
-  border: 2px solid transparent;
-  border-radius: 100px;
-  padding: 15px 25px;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link.custom-btn {
-  margin-top: 8px;
-  padding: 12px 25px;
-}
-
-.custom-btn:hover {
-  background: #C0EEF2;
-}
-
-.custom-border-btn {
-  background: transparent;
-  border: 2px solid #597081;
-  color: #C0EEF2;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link.custom-btn:hover,
-.custom-border-btn:hover {
-  background: #C0EEF2;
-  border-color: transparent;
-  color: #5a6f80;
-}
-
 
 /*---------------------------------------
   NAVIGATION              
@@ -184,16 +133,46 @@ strong {
   color: #C0EEF2;
 }
 
-
 .dropdown:hover .dropdown-menu {
     display: block;
 }
 
 
 /*---------------------------------------
+  DONATE BUTTON               
+-----------------------------------------*/
+.custom-btn {
+  border: 2px solid transparent;
+  border-radius: 100px;
+  padding: 15px 25px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.custom-btn {
+  margin-top: 8px;
+  padding: 12px 25px;
+}
+
+.custom-btn:hover {
+  background: #C0EEF2;
+}
+
+.custom-border-btn {
+  background: transparent;
+  border: 2px solid #597081;
+  color: #C0EEF2;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.custom-btn:hover,
+.custom-border-btn:hover {
+  background: #C0EEF2;
+  border-color: transparent;
+  color: #5a6f80;
+}
+
+
+/*---------------------------------------
   HERO & HERO SLIDE         
 -----------------------------------------*/
-
 .carousel:hover .carousel-control-next-icon, 
 .carousel:hover .carousel-control-prev-icon {
   opacity: 1;
@@ -249,7 +228,6 @@ strong {
 /*---------------------------------------
   FEATURE BLOCK              
 -----------------------------------------*/
-
 .featured-block:hover {
   border-radius: 20px;
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
@@ -278,7 +256,7 @@ strong {
 
 
 /*---------------------------------------
-  ABOUT              
+  STORY              
 -----------------------------------------*/
 .about-image {
   border-radius: 20px;
@@ -292,69 +270,18 @@ strong {
   padding: 60px 40px;
 }
 
-/*---------------------------------------
-  VOLUNTEER              
------------------------------------------*/
-.volunteer-section {
-  background: #5a6f80;
-  position: relative;
-  overflow: hidden;
-}
-
-.volunteer-form {
+.custom-text-box {
   background: #ffffff;
   border-radius: 20px;
-  padding: 50px;
-}
-
-.volunteer-image {
-  border-radius: 100%;
-  display: block;
-  margin: auto;
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-}
-
-.volunteer-section .custom-block-body {
-  max-width: 440px;
-  margin: 0 auto;
-}
-
-/*---------------------------------------
-  DONATE              
------------------------------------------*/
-.donate-section {
-  background-image: url("https://fakeimg.pl/200x100/?retina=1&text=DONATE&font=noto");
-  background: #717275;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
-
-.donate-form {
-  background: #ffffff;
-  border-radius: 20px;
-  position: relative;
-  overflow: hidden;
-  padding: 50px;
-}
-
-
-/*---------------------------------------
-  CONTACT               
------------------------------------------*/
-.contact-section {
-  background: #ffffff;
-}
-
-.contact-form {
-  background: #f0f8ff;
-  border-radius: 10px;
+  margin-bottom: 24px;
   padding: 40px;
+}
+
+.custom-text-box-image {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 
@@ -371,7 +298,6 @@ strong {
   padding-bottom: 13px;
   outline: none;
 }
-
 
 .custom-form .form-check-group {
   margin-bottom: 20px;
@@ -435,6 +361,36 @@ strong {
   border-color: #ffffff;
 }
 
+
+/*---------------------------------------
+  VOLUNTEER              
+-----------------------------------------*/
+.volunteer-section {
+  background: #5a6f80;
+  position: relative;
+  overflow: hidden;
+}
+
+.volunteer-form {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.volunteer-image {
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.volunteer-section .custom-block-body {
+  max-width: 440px;
+  margin: 0 auto;
+} 
+
 .input-group-file {
   border-radius: .25rem;
   padding: 13px .75rem;
@@ -452,6 +408,47 @@ strong {
   color: inherit;
   padding: 0;
 }
+ 
+
+/*---------------------------------------
+  DONATE              
+-----------------------------------------*/
+.donate-section {
+  background-image: url('../images/different-people-doing-volunteer-work.jpg');
+  background: #717275;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.donate-form {
+  background: #ffffff;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  padding: 50px;
+}
+
+.donate-form .form-control {
+  margin-bottom: 0;
+}
+
+
+/*---------------------------------------
+  CONTACT               
+-----------------------------------------*/
+.contact-section {
+  background: #ffffff;
+}
+
+.contact-form {
+  background: #f0f8ff;
+  border-radius: 10px;
+  padding: 40px;
+}
 
 .custom-form button[type="submit"] {
   background: #597081;
@@ -466,24 +463,14 @@ strong {
   background: #C0EEF2;
 }
 
-
-/*---------------------------
-  CONTACT SEARCH & DONATE         
----------------------------*/
 .contact-form .form-control {
   background: #ffffff;
-}
-
-
-.donate-form .form-control {
-  margin-bottom: 0;
 }
 
 
 /*----------------------
   SITE FOOTER              
 -----------------------*/
-
 .site-footer-bottom {
   background-color: #5a6f80;
   position: relative;
