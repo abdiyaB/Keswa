@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Donate clothes</title>
+        <title>Donate Clothes</title>
 
         <!-- BOOSTRAP FILE -->        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -77,7 +77,7 @@
         
                                 <div class="row">
                                     <div class="col-lg-12 col-12">
-                                        <h5 class="mb-3">Donation Frequency</h5>
+                                        <h5 class="mb-3">Delivery options</h5>
                                     </div>
         
                                     <div class="col-lg-6 col-6 form-check-group form-check-group-donation-frequency">
@@ -85,7 +85,7 @@
                                             <input class="form-check-input" type="radio" name="DonationFrequency" id="DonationFrequencyOne" checked>
                                             
                                             <label class="form-check-label" for="DonationFrequencyOne">
-                                                One Time
+                                                Drop off
                                             </label>
                                         </div>
                                     </div>
@@ -95,20 +95,20 @@
                                             <input class="form-check-input" type="radio" name="DonationFrequency" id="DonationFrequencyMonthly">
                                             
                                             <label class="form-check-label" for="DonationFrequencyMonthly">
-                                                Monthly
+                                                Delivery
                                             </label>
                                         </div>
                                     </div>
         
                                     <div class="col-lg-12 col-12">
-                                        <h5 class="mt-2 mb-3">Select an amount</h5>
+                                        <h5 class="mt-2 mb-3">Amount of bags</h5>
                                     </div>
         
                                     <div class="col-lg-3 col-md-6 col-6 form-check-group">
                                         <div class="form-check form-check-radio">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                                             <label class="form-check-label" for="flexRadioDefault1">
-                                                $10
+                                                1
                                             </label>
                                         </div>
                                     </div>
@@ -117,7 +117,7 @@
                                         <div class="form-check form-check-radio">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
                                             <label class="form-check-label" for="flexRadioDefault2">
-                                                $15
+                                                2
                                             </label>
                                         </div>
                                     </div>
@@ -126,7 +126,7 @@
                                         <div class="form-check form-check-radio">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
                                             <label class="form-check-label" for="flexRadioDefault3">
-                                                $20
+                                                3
                                             </label>
                                         </div>
                                     </div>
@@ -135,35 +135,23 @@
                                         <div class="form-check form-check-radio">
                                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
                                             <label class="form-check-label" for="flexRadioDefault4">
-                                                $30
-                                            </label>
-                                        </div>
-                                    </div>
-        
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
-                                            <label class="form-check-label" for="flexRadioDefault5">
-                                                $45
-                                            </label>
-                                        </div>
-                                    </div>
-        
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
-                                            <label class="form-check-label" for="flexRadioDefault6">
-                                                $50
+                                                4
                                             </label>
                                         </div>
                                     </div>
         
                                     <div class="col-lg-6 col-12 form-check-group">
                                         <div class="input-group">
-                                            <span class="input-group-text" id="basic-addon1">$</span>
+                                            <span class="input-group-text" id="basic-addon1">?</span>
                                             
                                             <input type="text" class="form-control" placeholder="Custom amount" aria-label="Username" aria-describedby="basic-addon1">
                                         </div>
+                                    </div>
+
+                                    
+                                    <div class="col-lg-12 col-12">
+                                        <h5 class="mt-1">Clothes Description </h5>
+                                        <textarea name="volunteer-message" rows="3" class="form-control" id="volunteer-message" placeholder="Comment (Optional)"></textarea>
                                     </div>
         
                                     <div class="col-lg-12 col-12">
@@ -171,33 +159,21 @@
                                     </div>
         
                                     <div class="col-lg-6 col-12 mt-2">
-                                        <input type="text" name="donation-name" id="donation-name" class="form-control" placeholder="Jack Doe" required>
+                                        <input type="text" name="donation-name" id="donation-name" class="form-control" placeholder="Full Name" required>
                                     </div>
         
                                     <div class="col-lg-6 col-12 mt-2">
-                                        <input type="email" name="donation-email" id="donation-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com" required>
+                                        <input type="email" name="donation-email" id="donation-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email" required>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mt-2">
+                                        <input type="text" name="donation-number" id="donation-number" class="form-control" placeholder="Phone number" required>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mt-2">
+                                        <input type="text" name="donation-location" id="donation-location" class="form-control" placeholder="Location" required>
                                     </div>
         
-                                    <div class="col-lg-12 col-12">
-                                        <h5 class="mt-4 pt-1">Choose Payment</h5>
-                                    </div>
-        
-                                    <div class="col-lg-12 col-12 mt-2">
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="DonationPayment" id="flexRadioDefault9">
-                                            <label class="form-check-label" for="flexRadioDefault9">
-                                                <i class="bi-credit-card custom-icon ms-1"></i>
-                                                Debit or Credit card
-                                            </label>
-                                        </div>
-        
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="DonationPayment" id="flexRadioDefault10">
-                                            <label class="form-check-label" for="flexRadioDefault10">
-                                                <i class="bi-paypal custom-icon ms-1"></i>
-                                                Paypal
-                                            </label>
-                                        </div>
         
                                         <button type="submit" class="form-control mt-4">Submit Donation</button>
                                     </div>
@@ -210,8 +186,8 @@
             </section>
         </main>
 
-        <footer class="site-footer-bottom">
-
+        <footer class="site-footer">
+            <div class="site-footer-bottom">
                 <div class="container">
                     <div class="row">
 
@@ -239,7 +215,7 @@
                         
                     </div>
                 </div>
-
+            </div>
         </footer>
 
         <!-- JAVASCRIPT FILES -->
