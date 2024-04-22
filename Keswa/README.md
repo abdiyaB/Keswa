@@ -24,10 +24,4 @@ charity and fundraising app
 - [ ] **Phase 5:** Backend Test
 - [ ] **Phase 6:** Deploy
 
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
+### My Great Heading {#custom-id}
