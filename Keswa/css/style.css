@@ -325,7 +325,7 @@ strong {
   DONATE              
 -----------------------------------------*/
 .donate-section {
-  background-image: url('../images/different-people-doing-volunteer-work.jpg');
+  background-image: url("https://fakeimg.pl/200x100/?retina=1&text=DONATE&font=noto");
   background: #717275;
   background-repeat: no-repeat;
   background-position: center;
