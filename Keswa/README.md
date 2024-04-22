@@ -7,9 +7,10 @@ charity and fundraising app
 - volunteering oppurtunities
 - social sharing
 
+### How to run the applicationm:
+
 
 ### Team members:
-[title](https://www.example.com)
 1. Abidiyyah Barqah VA5154
 2. Wed Aljehani VA5019
 3. Sulafah Kaki VB5005
