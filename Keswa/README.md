@@ -8,7 +8,7 @@ A Web application that provides easier ways to donate clothes for the people in 
 - Volunteering oppurtunities
 - Social sharing
 
-## How to run the applicationm:
+## How to run the application:
 1. install the zip file 
 
 
