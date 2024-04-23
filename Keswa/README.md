@@ -7,13 +7,12 @@ A Web application that provides easier ways to donate clothes for the people in 
 - Donating Clothes: This seems to be the core functionality. Users can likely schedule a pick-up for their donated clothes.
 - Donating Money: The website also offers the option to donate money.
 - Volunteering Opportunities: There's a section on volunteering opportunities, allowing users to sign up to volunteer their time.
-- Social Sharing: The web application allows users to share information about the donation process with others on social media platforms.
 
 
 ## How to run the application:
-1. install the zip file
-2. extract the compressed file
-3. open it with a web browser of your choice.
+1. install the zip folder.
+2. extract the compressed folder.
+3. open the index file with a web browser of your choice.
 
 
 ## Team members:
