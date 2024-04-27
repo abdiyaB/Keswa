@@ -14,14 +14,18 @@ app.config['MAIL_PASSWORD'] = 'keswa@charity'
 mail = Mail(app)
 
 
-@app.route("/clothes")
-def homePage():
-   return render_template('clothes.html')
+@app.route('/')
+def home():
+   return render_template('index.html')
 
 
 @app.route("/money")
-def about():
+def money():
     return render_template('money.html')
+
+@app.route("/clothes")
+def donate():
+    return render_template('donate.html')
 
 
 @app.route("/index" , methods = ['GET','POST'])
