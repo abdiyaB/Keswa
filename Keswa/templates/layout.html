@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
     <head>
+        {% block head %}
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,6 +26,8 @@
         {%else%}
         <title>Keswa</title>
         {%endif%}
+
+        {% endblock %}
 
     </head>
 
@@ -60,6 +64,14 @@
                                 <a class="nav-link click-scroll" href="#section_6">Contact</a>
                             </li> 
 
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="mobile.html">Mobile</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="reques.html">Reques</a>
+                            </li>
+
                             <li class="nav-item dropdown">
                                 <button class="nav-link custom-btn custom-border-btn btn click-scroll" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Donate
                                     <i class="fa-solid fa-caret-down"></i>
@@ -70,6 +82,8 @@
                                     <li><a class="dropdown-item" href="money.html">Money</a></li>
                                 </ul>
                             </li>
+
+
                         </ul>
                     </div>
                 </div>
