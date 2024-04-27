@@ -1,11 +1,15 @@
 <html lang="en">
 <head>
-
+    {% extends "layout.html" %}
+    {% block head %}
+    {{ super() }}
     <title>Mobiles</title>
-    <script src="/static/js/mobile-data.js"></script>
+    <script src="/static/mobile-data.js"></script>
+    {% endblock %}
 
 </head>
 <body>
+    {% block myContent %}
     <h1>mobiles page</h1>
 <p>this page contains all mbile's data from <code>mobile-data.js</code> </p>
 
@@ -31,6 +35,7 @@
             console.log(Mobile)
     }
         </script>
+          {% endblock myContent %}
 </body>
 </html>
 
