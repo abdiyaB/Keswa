@@ -1,17 +1,23 @@
 posts = [
     {
-      "name": "John Doe",
-      "email": "john.doe@example.com",
-      "amount": 50,
-      "frequency": "One Time",
-      "payment": "Debit or Credit card"
+        'name': 'Wed Aljehani',
+        'email': 'wed_aljehani@gmail.com',
+        'phone_number': '0555522112',
+        'cv': ("http://www.wid/cv.com"),
+        'comment': 'No Comment'
     },
     {
-      "name": "Jane Doe",
-      "email": "jane.doe@example.com",
-      "amount": 100,
-      "frequency": "Monthly",
-      "payment": "Apple Pay"
+        'name': 'Abdiya Bargah',
+        'email': 'Abdiya_Bargah@yahoo.com',
+        'phone_number': '0551122333',
+        'cv': ("http://www.abdiya/cv.com"),
+        'comment': 'No Comment'
+    },
+    {
+        'name': 'Sulafah kaki',
+        'email': 'Sulafah_kaki@hotmail.com',
+        'phone_number': '0505598766',
+        'cv': ("http://www.sulafah/cv.com"),
+        'comment': 'No Comment'
     }
-  ]
-
+]
