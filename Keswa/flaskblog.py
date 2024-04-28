@@ -28,14 +28,14 @@ def clothes():
     return render_template('clothes.html')
 
 
-@app.route("/index" , methods = ['GET','POST'])
+@app.route("/contact" , methods = ['GET','POST'])
 def contactUs():
     if request.method == 'POST' : 
         msg = Message("Hey" , sender='noreply@demo.com', recipients=['g4project.se421@gmail.com'])
         msg.body = " hey how are you"
         mail.send(msg)
         return "sent email"
-    return render_template('index.html')
+    return render_template('contact.html')
 
 @app.route("/mobile")
 def mobile():
