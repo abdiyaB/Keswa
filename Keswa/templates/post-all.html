@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% extends "layout.html" %}
+        {% block head %}
+        {{ super() }}
+        <title>Keswa</title>
+        {% endblock %}
+    </head>
+
+    <body>
+        <!-- Main Content -->
+        {% block myContent %}
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+      
+              <h1 class="----">{{title}}</h1>
+              <p>brings all posts data using Jinja code. Data is retrieved from postdata.py</p>
+                       
+            </div>
+          </div>
+        </div>
+      
+        <!-- display output by bootstrap -->
+        {% for p in posts %}
+        <div class="container mt-3">
+          <ul class="list-group">
+            <li class="list-group-item active">{{p['name']}}</li>
+            <li class="list-group-item">{{p['email']}}</li>
+            <li class="list-group-item">{{p['phone_number']}}</li>
+            <li class="list-group-item">{{p['comment']}}</li>
+      
+          </ul>
+        </div>
+      
+        {% endfor %}
+      
+        {% endblock myContent%}
+
+    </body>
