@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- Extend the layout.html template -->
         {% extends "layout.html" %}
         {% block head %}
         {{ super() }}
+        <!-- Set the title of the page -->
         <title>Contact Us</title>
         {% endblock %}
     </head>
@@ -12,12 +14,14 @@
         {% block myContent %}
         <main>
 
+            <!-- Section for contact form -->
             <section class="contact-section section-padding">
                 <div class="container">
                     
                 </div>
             </section>
 
+        <!-- Contact form section -->
         <section class="contact-section section-padding" id="Contact-Us">
             <div class="container">
                 <div class="row">
@@ -38,7 +42,7 @@
                                 </div>
                             </div>
 
-                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
+                            <input type="email" name="email" id="email" pattern="[^ @]@[^ @]" class="form-control"
                                 placeholder="Email" required>
 
                             <textarea name="message" rows="5" class="form-control" id="message"
@@ -52,6 +56,7 @@
             </div>
         </section>
 
+        <!-- Additional contact section -->
         <section class="contact-section section-padding">
             <div class="container">
                 
