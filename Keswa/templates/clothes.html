@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- Extend the layout.html template -->
         {% extends "layout.html" %}
         {% block head %}
         {{ super() }}
+        <!-- Set the title of the page -->
         <title>Clothes Donation</title>
         {% endblock %}
     </head>
@@ -12,11 +14,13 @@
         {% block myContent %}
 
         <main>
+            <!-- Section for clothes donation form -->
             <section class="donate-section">
                 <div class="section-overlay"></div>
                 <div class="container">
                     <div class="row">
-        
+
+                        <!-- Form for clothes donation -->
                         <div class="col-lg-6 col-12 mx-auto">
                             <form class="custom-form donate-form" action="#" method="get" role="form">
                                 <h3 class="mb-4">Make clothes donation</h3>
@@ -109,7 +113,7 @@
                                     </div>
         
                                     <div class="col-lg-6 col-12 mt-2">
-                                        <input type="email" name="donation-email" id="donation-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email" required>
+                                        <input type="email" name="donation-email" id="donation-email" pattern="[^ @]@[^ @]" class="form-control" placeholder="Email" required>
                                     </div>
 
                                     <div class="col-lg-6 col-12 mt-2">
@@ -120,7 +124,7 @@
                                         <input type="text" name="donation-location" id="donation-location" class="form-control" placeholder="Location" required>
                                     </div>
         
-        
+                                        <!-- Submit button for the donation form -->
                                         <button type="submit" class="form-control mt-4">Submit Donation</button>
                                     </div>
                                 </div>
