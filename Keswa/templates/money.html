@@ -1,22 +1,28 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- Extending from layout.html -->
         {% extends "layout.html" %}
+        <!-- Block for the head section -->
         {% block head %}
         {{ super() }}
+        <!-- Title of the page -->
         <title>Clothes Donation</title>
         {% endblock %}
     </head>
     
     <body id="section_1">
+        <!-- Block for the main content -->
         {% block myContent %}
 
         <main>
+            <!-- Section for donation form -->
             <section class="donate-section">
                 <div class="section-overlay"></div>
                 <div class="container">
                     <div class="row">
         
+                        <!-- Donation form -->
                         <div class="col-lg-6 col-12 mx-auto">
                             <form class="custom-form donate-form" action="#" method="get" role="form">
                                 <h3 class="mb-4">Make money donation</h3>
@@ -126,7 +132,8 @@
                                                 Apple Pay
                                             </label>
                                         </div>
-        
+                                        
+                                        <!-- Submit button -->
                                         <button type="submit" class="form-control mt-4">Submit Donation</button>
                                     </div>
                                 </div>
