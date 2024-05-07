@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% extends "layout.html" %}
+        {% block head %}
+        {{ super() }}
+        <title>Contact Us</title>
+        {% endblock %}
+    </head>
+    
+    <body id="section_1">
+        {% block myContent %}
+        <main>
+
+            <section class="contact-section section-padding">
+                <div class="container">
+                    
+                </div>
+            </section>
+
+        <section class="contact-section section-padding" id="Contact-Us">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-7 col-12 mx-auto">
+                        <form class="custom-form contact-form" method='POST'>
+                            <h2>Contact Us</h2>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <input type="text" name="first-name" id="first-name" class="form-control"
+                                        placeholder="First Name" required>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <input type="text" name="last-name" id="last-name" class="form-control"
+                                        placeholder="Last Name" required>
+                                </div>
+                            </div>
+
+                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
+                                placeholder="Email" required>
+
+                            <textarea name="message" rows="5" class="form-control" id="message"
+                                placeholder="What can we help you?"></textarea>
+
+                            <button type="submit" class="form-control">Send Message</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section section-padding">
+            <div class="container">
+                
+            </div>
+        </section>
+    </main>
+
+
+        {% endblock myContent %}
+    </body>
+</html>

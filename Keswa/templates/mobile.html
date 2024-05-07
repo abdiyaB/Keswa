@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends "layout.html" %}
+    {% block head %}
+    {{ super() }}
+    <title>Mobiles</title>
+    <script src="/static/js/mobile-data.js"></script>
+    {% endblock %}
+
+</head>
+<body>
+    {% block myContent %}
+    <section class="contact-section section-padding">
+        <div class="container">
+            
+        </div>
+    </section>
+    <section>
+        <center>
+            <h1>mobiles page</h1>
+<p>this page contains all mbile's data from <code>mobile-data.js</code> </p>
+
+<table >
+    <tr>
+        <th>Name</th>
+        <th>Describtiion</th>
+        <th>Price</th>
+    </tr>
+    <tbody id="Mobile"></tbody> 
+</table>
+        </center>
+        
+
+<script> 
+     
+    var Mobile = document.getElementById('Mobile');
+    for (var i = 0; i < Object.keys(mobiles).length; i++) {
+        var tr = `<tr>
+                                <td>${mobiles[i].title}</td>
+                                <td>${mobiles[i].desc}</td>
+                                <td>${mobiles[i].price}</td>
+                          </tr>`
+            Mobile.innerHTML += tr;
+            console.log(Mobile)
+    }
+        </script>
+    </section>
+
+    <section class="contact-section section-padding">
+        <div class="container">
+            
+        </div>
+    </section>
+    
+          {% endblock myContent %}
+
+    
+</body>
+</html>
+
+
+    
