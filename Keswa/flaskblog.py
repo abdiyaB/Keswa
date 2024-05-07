@@ -43,17 +43,6 @@ def contact():
 
     return render_template('contact.html')
 
-@app.route("/index" , methods = ['GET','POST'])
-def contactUs():
-    if request.method == 'POST' : 
-        msg = Message("Hey" , sender='noreply@demo.com', recipients=['keswa.421@gmail.com'])
-        msg.body = " hey how are you"
-        mail.send(msg)
-        return "sent email"
-    return render_template('index.html')
-
-
-
 @app.route("/mobile")
 def mobile():
     return render_template('mobile.html')
@@ -76,5 +65,10 @@ def show_post(post_id):
         return render_template('404.html'), 404
 
 #debug tool
+'''
+if __name__ == '__main__':
+	app.run( debug=True )
+'''
+
 if __name__ == '__main__':
 	serve(app, host='0.0.0.0', port=50100, threads=2, url_prefix="/my-app")
