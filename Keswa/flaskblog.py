@@ -43,20 +43,6 @@ def contact():
 
     return render_template('contact.html')
 
-@app.route("/index" , methods = ['GET','POST'])
-def contactUs():
-    if request.method == 'POST' : 
-        name = request.form.get('volunteer-name')
-        email = request.form.get('volunteer-email')
-        number = request.form.get('volunteer-subject')
-        file = request.form.get('inputGroupFile02')
-        message = request.form.get('volunteer-message')
-        msg = Message(subject=f"Mail from {name}", body = f"Name: {name}\nEmail: {email}\nPhone number: {number}\n\n\nMessage: {message}\nattachement: {file}", sender=mail_username, recipients=['keswa.421@gmail.com'])
-        mail.send(msg)
-        return "sent email"
-    return render_template('index.html')
-
-
 
 @app.route("/mobile")
 def mobile():
